@@ -1,23 +1,23 @@
-# 🛒 MonPackage/Ecommerce
+#  Package/Ecommerce
 
 Un package e-commerce **Laravel maison**, complet et prêt à l'emploi.
 
 ## Fonctionnalités
 
-- ✅ Catalogue produits (simple, variable, numérique)
-- ✅ Catégories hiérarchiques
-- ✅ Panier intelligent (session ou base de données)
-- ✅ Checkout multi-étapes (livraison → paiement → confirmation)
-- ✅ Paiement Stripe & PayPal intégré
-- ✅ Gestion des stocks avec alertes
-- ✅ Coupons de réduction (%, fixe, livraison gratuite)
-- ✅ Avis clients avec modération
-- ✅ Wishlist
-- ✅ Panel d'administration complet
-- ✅ Emails transactionnels
-- ✅ API REST (Sanctum)
-- ✅ Export CSV commandes & produits
-- ✅ Multi-passerelles de paiement
+- Catalogue produits (simple, variable, numérique)
+-  Catégories hiérarchiques
+- Panier intelligent (session ou base de données)
+- Checkout multi-étapes (livraison → paiement → confirmation)
+- Paiement Stripe & PayPal intégré
+- Gestion des stocks avec alertes
+-  Coupons de réduction (%, fixe, livraison gratuite)
+- Avis clients avec modération
+- Wishlist
+-  Panel d'administration complet
+- Emails transactionnels
+- API REST (Sanctum)
+-  Export CSV commandes & produits
+-  Multi-passerelles de paiement
 
 ---
 
