@@ -1,0 +1,44 @@
+{
+    "name": "monpackage/ecommerce",
+    "description": "Un package e-commerce Laravel maison complet — produits, panier, commandes, paiements.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Votre Nom",
+            "email": "vous@exemple.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^10.0|^11.0|^12.0",
+        "laravel/sanctum": "^3.0|^4.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MonPackage\\Ecommerce\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MonPackage\\Ecommerce\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MonPackage\\Ecommerce\\Providers\\EcommerceServiceProvider"
+            ],
+            "aliases": {
+                "Panier": "MonPackage\\Ecommerce\\Facades\\Panier",
+                "Boutique": "MonPackage\\Ecommerce\\Facades\\Boutique"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
